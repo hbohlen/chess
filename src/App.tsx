@@ -1,13 +1,13 @@
 import React from "react";
 
-import Chessboard from "./components/Chessboard/Chessboard";
+import Square from "./components/Chessboard/Square/Square";
 
 import "./App.scss";
 
 function App() {
   return (
     <div id="App">
-      <Chessboard />
+      <Square />
     </div>
   );
 }

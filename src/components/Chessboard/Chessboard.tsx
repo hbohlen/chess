@@ -2,10 +2,10 @@ import React from "react";
 
 import "./chessboard.scss";
 
-type Props = {};
+import Square from "./Square/Square";
 
-function Chessboard({}: Props) {
-  return <div className="chessboard">Chessboard</div>;
-}
+const Chessboard = () => {
+  return <div className="chessboard">hello</div>;
+};
 
 export default Chessboard;
