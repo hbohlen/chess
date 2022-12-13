@@ -7,7 +7,7 @@ import "./App.scss";
 function App() {
   return (
     <div id="App">
-      <Square />
+      <Square color={"black"} row={1} column={1} />
     </div>
   );
 }
